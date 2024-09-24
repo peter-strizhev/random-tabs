@@ -9,15 +9,23 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:random-tabs.newLine"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "random-tabs.helloWorld",
-        "title": "Hello World"
+        "command": "random-tabs.newLine",
+        "title": "New Line"
       }
-    ]
+    ],
+    "keybindings": [{
+      "command": "random-tabs.newLine",
+      "key": "enter",
+      "mac": "enter",
+      "when": "editorTextFocus"
+    }]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
