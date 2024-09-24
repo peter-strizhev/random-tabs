@@ -2,6 +2,7 @@
   "name": "random-tabs",
   "displayName": "Random Tabs",
   "description": "A useless plugin that randomly indents your code",
+  "repository": {"url": "https://github.com/peter-strizhev/random-tabs"},
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.93.0"
