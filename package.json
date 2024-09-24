@@ -1,5 +1,6 @@
 {
   "name": "random-tabs",
+  "publisher": "PeterStrizhev",
   "displayName": "Random Tabs",
   "description": "A useless plugin that randomly indents your code",
   "repository": {"url": "https://github.com/peter-strizhev/random-tabs"},
